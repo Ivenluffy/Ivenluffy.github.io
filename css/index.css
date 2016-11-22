@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+
+body {
+    background: #f2f4f5;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+header {
+    height: 14.4rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 2rem;
+}
+
+.headerItem {
+    flex: 1 1 auto;
+    height: 100%;
+    text-align: center;
+}
+
+.headerItem img {
+    margin-top: 2.4rem;
+    width: 5.6rem;
+    height: auto;
+}
+
+.headerItem p {
+    font: normal 2.4rem/2.6rem "微软雅黑";
+    color: #888;
+    margin-top: 1.8rem;
+}
+
+.sectionOne {
+    height: 26rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.sectionOne__rateLeft {
+    flex: 1 1 auto;
+    height: 100%;
+    text-align: left;
+    position: relative;
+}
+.sectionOne__rateLeft:after{
+    content:"";
+    width: 1px;
+    height: 5rem;
+    background: #e6e8eb;
+    position: absolute;
+    right: -2rem;
+    top:50%;
+    margin-top: -2.5rem;
+}
+
+.sectionOne__rateLeft div {
+    margin-left:16%;
+    font: normal 8.8rem/8.8rem Arial;
+    color: #fa6850;
+    margin-top: 5rem;
+}
+.sectionOne__rateLeft div span{
+    font: normal 4.8rem/5rem Arial;
+    color: #fa6850;
+}
+.sectionOne__rateLeft h3{
+    margin-left: 16%;
+    font: normal 2.8rem/3rem "微软雅黑";
+    color: #878787;
+}
+.sectionOne__cntRight {
+    flex: 2 1 auto;
+    height: 100%;
+    text-align: left;
+
+}
+.sectionOne__cntRight h3{
+    margin-left: 12%;
+    margin-top: 6rem;
+    font: normal 3.2rem/3.2rem "微软雅黑";
+    color: #333;
+}
+.sectionOne__cntRight h4{
+     margin-left: 12%;
+     font: normal 2.8rem/6rem "微软雅黑";
+    height: 6rem;
+    color: #878787;
+}
+.sectionOne__cntRight div{
+    margin-left: 12%;
+}
+.sectionOne__cntRight div span{
+    color:#0177f0;
+    font: normal 2.2rem/4rem "微软雅黑";
+    display: inline-block;
+    height: 4rem;
+    border:1px solid #0177f0;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    margin-right: 1.2rem;
+}
+.sectionOne__iconRightTop {
+    background: #ff7170;
+    font: normal 2rem/3.6rem "微软雅黑";
+    height: 3.6rem;
+    width: 20rem;
+    text-align: center;
+    transform: rotate(45deg);
+    color: #fff;
+    position: absolute;
+    right: -6.6rem;
+    top: 2.2rem;
+}
+.sectionThree{
+    height: 26.6rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 2rem;
+}
+.sectionThree div{
+    flex: 1 1 auto;
+    height: 100%;
+    text-align: center;
+}
+.sectionThree div h2{
+    width: 15.6rem;
+    height: 15.6rem;
+    border: 1px solid #0177f0;
+    box-sizing: border-box;
+    border-radius: 7.8rem;
+    font: normal 3.2rem/4rem "微软雅黑";
+    margin: 3rem auto 0;
+    color:#0177f0;
+    display:table;
+}
+.sectionThree div h2 a{
+    vertical-align:middle;
+    display:table-cell;
+
+}
+.sectionThree div p{
+    color: #7494be;
+    font: normal 2.8rem/6.6rem "微软雅黑";
+}
+.sectionFour{
+    background: #fff;
+    padding: 0 8%;
+    position: relative;
+}
+.sectionFour-firstPart{
+    font-size: 3.2rem;
+    color:#333;
+    padding-top: 2.2rem;
+    height: 5rem;
+}
+.sectionFour-firstPart span{
+    color:#888;
+    font-size: 2.4rem;
+}
+.sectionFour-secondPart{
+    height: 15rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sectionFour-secondPart div:nth-child(1){
+    flex:4 1 auto;
+    height: 100%;
+    margin-top: 2.6rem;
+}
+.sectionFour-secondPart div:nth-child(1) h4{
+    font:normal 4.2rem/8.8rem "微软雅黑";
+    color:#f54746;
+}
+.sectionFour-secondPart div:nth-child(1) h5{
+     font:normal 2.8rem/2.8rem "微软雅黑";
+     color:#b3b3b3;
+ }
+.sectionFour-secondPart div:nth-child(2){
+    flex:1 1 auto;
+    height: 100%;
+    margin-top: 2.6rem;
+}
+.sectionFour-secondPart div:nth-child(2) h4{
+    font:normal 4.2rem/8.8rem "微软雅黑";
+    color:#333;
+}
+.sectionFour-secondPart div:nth-child(2) h5{
+    font:normal 2.8rem/2.8rem "微软雅黑";
+    color:#b3b3b3;
+}
+
+.sectionFour__icon{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 50%;
+    right: 8%;
+    margin-top: -1.6rem;
+    overflow: hidden;
+}
+.sectionFour__icon a{
+    margin-top: 0.4rem;
+    margin-left: -1.3rem;
+    display: block;
+    border:1px solid #c8c8ce;
+    width: 3.2rem;
+    height: 3.2rem;
+    transform: rotate(45deg);
+}
+.sectionFive{
+    height: 7.2rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 0 8%;
+}
+.sectionFive div{
+    flex: 1 1 auto;
+    height: 100%;
+    color:#b3b3b3;
+    border-top: 1px solid #dfdfdf;
+    font: normal 2.8rem/7.2rem "微软雅黑";
+}
+.sectionFive div:nth-child(1){
+    text-align: left;
+}
+.sectionFive div:nth-child(2){
+    text-align: center;
+}
+.sectionFive div:nth-child(3){
+    text-align: right;
+}
